@@ -1,0 +1,5 @@
+set solib-search-path ./obj/local/x86
+source /Users/pro/tools/android-ndk-r10d/prebuilt/common/gdb/common.setup
+directory /Users/pro/tools/android-ndk-r10d/platforms/android-9/arch-x86/usr/include /Users/pro/tools/android-ndk-r10d/sources/android/support/include /Users/pro/tools/android-ndk-r10d/sources/cxx-stl/llvm-libc++ /Users/pro/tools/android-ndk-r10d/sources/android/compiler-rt /Users/pro/tools/android-ndk-r10d/sources/cxx-stl/llvm-libc++/libcxx/include /Users/pro/tools/android-ndk-r10d/sources/cxx-stl/llvm-libc++/../gabi++/include /Users/pro/tools/android-ndk-r10d/sources/cxx-stl/llvm-libc++/../../android/support/include jni
+file ./obj/local/x86/app_process
+target remote :5039
